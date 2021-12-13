@@ -1,0 +1,19 @@
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+Ojects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+Example var Person = {
+                      firstName: "Rajesh",
+                      lastName: "Poojari,
+        }
+We access Object properties using . dot operator. If I need to access firstName , then I use Person.firstName it will give me Rajesh.
+We can also create objects like this as well-
+var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+
+if we console.log(myCar); it will give us this -
+{
+  make: "Ford",
+  model: "Mustang",
+  year: "1969",
+}
